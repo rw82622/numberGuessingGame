@@ -1,5 +1,5 @@
 # Guess A Number
-
+=======================
 ## This challenge will help you to:
 - Implement HTML elements that use specific attributes to perform actions
 - Implement CSS styling using `id=`s and `class=`es
@@ -12,6 +12,8 @@ Let's create a simple number guessing game. The computer will pick a random numb
 Your number guessing game will consist of an HTML file, CSS file, and a Javascript file.
 
 ## HTML File
+Your HTML file is already given to you with a `<nav>` element and a `<h1>` tag.
+
 ```
 <!DOCTYPE html>
   <head>
@@ -31,3 +33,8 @@ Your number guessing game will consist of an HTML file, CSS file, and a Javascri
   </body>
 </html>
 ```
+
+Remember, don't worry about styling to begin with.
+
+## Step 1: Create the required HTML Elements
+First, create the HTML elements needed to `<input>` a value and a `<button>` to submit your answer.
