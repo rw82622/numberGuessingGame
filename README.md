@@ -5,10 +5,12 @@
 - Implement CSS styling using `id=`s and `class=`es
 - Use Javascript to interact with your web page or the Docuement Object Model (DOM)
 - Use HTML or DOM methods to edit, add, and delete elements on your webpage in real time.
+- __GET CREATIVE__
 
 ## Summary
 Let's create a simple number guessing game. The computer will pick a random number between 1 and 100 and you will have to guess that number.
 
+### READING DOCUMENTATION IS KEY THROUGHOUT YOUR CAREER (80% reading, 20% coding)
 
 ## Requirements
 
@@ -93,6 +95,17 @@ let randomNumber = someFunction() {
 }
 ```
 
-Using the `document`s built in methods 'grab' the user's input number from the `<input>` element and assign it to a variable.
+Using the `document`s built in methods 'grab' the user's input number from the `<input>` element when the `<button>` is pressed and assign it to a variable.
 
-__Research what `document` built in methods can interact with the DOM (ex: getElement...)__
+__Research what `document` built in methods can interact with the DOM (ex: `getElement...`, `onclick`, etc.)__
+
+Next, insert an HTML element of the Guessed Number somewhere on your webpage.
+Research the following DOM built in methods:
+`createElement`, `createTextNode`, and `appendChild`
+
+Lastly, insert or edit an HTML element telling the user to guess higher, lower, or that they've won.
+
+## Resources
+* [Using Javascript to interact with the DOM](https://www.w3schools.com/js/js_htmldom_elements.asp)
+* [onClick events](https://www.w3schools.com/jsref/event_onclick.asp)
+* [Document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
