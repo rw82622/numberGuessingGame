@@ -93,6 +93,6 @@ let randomNumber = someFunction() {
 }
 ```
 
-Using the `document.`s built in methods 'grab' the user's input number from the `<input>` element and assign it to a variable.
+Using the `document`s built in methods 'grab' the user's input number from the `<input>` element and assign it to a variable.
 
 __Research what `document` built in methods can interact with the DOM (ex: getElement...)__
