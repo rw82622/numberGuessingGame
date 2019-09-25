@@ -40,14 +40,42 @@ Your HTML file is already given to you with a `<nav>` element and a `<h1>` tag.
   </body>
 </html>
 ```
-Let's open the `index.html` file in the browser by running the following command:
+
+Now, let's add both our `styles.css` and `app.js` files to our `index.html` file:
+
+```
+    <link rel="stylesheet" href="the path to your style.css file">
+    <script src="the path to your Javascript file" async defer></script>
+```
+
+To open the `index.html` file in the browser by running the following command:
+
 `$ open index.html`
 
-## CSS File
+As we add new elements and tags you can refresh your browser and it will reload your Guessing Game app and it will also automatically run your Javascript file and import your CSS styling.
 
-Your CSS file is basically empty at the moment. Once you complete the Javascript portion of the Challenge where you're able to Submit a number and tell the user that they've WON or not.
+Open up the Chrome Developer Tools and click on the "Console" tab to see the `HELLO JULIET PLATOON!` console log.
+
+Shortcut to open the Chrome Dev Tools: `command + option + i`
+
+## Javascript File
+
+Your CSS file is basically empty at the moment. Once you complete the Javascript portion of the Challenge have fun and start designing a sleak looking Guessing Game app.
 
 Remember, don't worry about styling to begin with.
 
+## CSS File
+
+Your CSS file is basically empty at the moment. Once you complete the Javascript portion of the Challenge have fun and start designing a sleak looking Guessing Game app.
+
+Remember, don't worry about styling to begin with.
+
+
 ## Step 1: Create the required HTML Elements
 First, create the HTML elements needed to `<input>` a value and a `<button>` to submit your answer.
+
+Each element has specific attributes to it. Research what attributes the `<input>`, `<button>`, and `<form>` elements have.
+
+__Think about how you would execute a Javascript function within an HTML element.__ (maybe Google it)
+
+## Step 2:
