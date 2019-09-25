@@ -31,5 +31,3 @@ Your number guessing game will consist of an HTML file, CSS file, and a Javascri
   </body>
 </html>
 ```
-
-
