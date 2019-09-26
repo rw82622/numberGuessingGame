@@ -103,7 +103,7 @@ Next, insert an HTML element of the Guessed Number somewhere on your webpage.
 Research the following DOM built in methods:
 `createElement`, `createTextNode`, and `appendChild`
 
-Lastly, insert or edit an HTML element telling the user to guess higher, lower, or that they've won.
+Lastly, insert or edit an HTML element telling the user to guess higher, lower, or they've won.
 
 ## Resources
 * [Using Javascript to interact with the DOM](https://www.w3schools.com/js/js_htmldom_elements.asp)
