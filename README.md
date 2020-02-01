@@ -23,7 +23,7 @@ Your number guessing game will consist of an HTML file, CSS file, and a Javascri
 
 ## HTML File
 Your HTML file is already given to you with a `<nav>` element and a `<h1>` tag.
-```
+```html
 <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
@@ -49,8 +49,8 @@ Your Javascript file will automatically run when your HTML file loads in the web
 
 Here in your Javascript file you will write function(s) to that will manipulate your webpage and perform all the game logic.
 
-```
-console.log("HELLO JULIET PLATOON!")
+```js
+console.log("HELLO KIILO PLATOON!")
 // Your function(s) should go here that will interact with the webpage or DOM
 ```
 
@@ -64,7 +64,7 @@ Remember, don't worry about styling to begin with.
 
 Let's add our `styles.css` and `app.js` files to our `index.html` file:
 
-```
+```html
     <link rel="stylesheet" href="the path to your style.css file">
     <script src="the path to your Javascript file" async defer></script>
 ```
@@ -89,7 +89,7 @@ __Think about how you would execute a Javascript function within an HTML element
 ## Step 3: JS File - Write JS functions to perform game logic
 Let's create a function that generates a random number between 1 - 100 and store it in a variable.
 
-```
+```js
 let randomNumber = someFunction() {
 
 }
