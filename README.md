@@ -50,7 +50,7 @@ Your Javascript file will automatically run when your HTML file loads in the web
 Here in your Javascript file you will write function(s) to that will manipulate your webpage and perform all the game logic.
 
 ```js
-console.log("HELLO KIILO PLATOON!")
+console.log("HELLO LIMA PLATOON!")
 // Your function(s) should go here that will interact with the webpage or DOM
 ```
 
