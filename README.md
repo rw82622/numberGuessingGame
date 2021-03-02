@@ -75,7 +75,7 @@ To open the `index.html` file in the browser by running the following command:
 
 As we add new elements and tags you can refresh your browser and it will reload your Guessing Game app and it will also automatically run your Javascript file and import your CSS styling.
 
-To ensure our Javascript file has loaded with our HTML open up the Chrome Developer Tools and click on the "Console" tab to see the `HELLO JULIET PLATOON!` console log.
+To ensure our Javascript file has loaded with our HTML open up the Chrome Developer Tools and click on the "Console" tab to see the `HELLO NOVEMBER PLATOON!` console log.
 
 Shortcut to open the Chrome Dev Tools: `command + option + i`
 
