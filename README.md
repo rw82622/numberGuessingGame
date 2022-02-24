@@ -32,7 +32,7 @@ Your HTML file is already given to you with a `<nav>` element and a `<h1>` tag.
     <!-- Your link to your CSS file -->
     <link rel="stylesheet" href="">
     <!-- Your Javascript file goes here -->
-    <script src="" async defer></script>
+    <script src="" defer></script>
   </head>
   <body>
     <!-- your HTML should go here -->
