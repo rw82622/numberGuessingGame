@@ -1,4 +1,3 @@
-/* styles.css */
 body {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 300;
@@ -6,6 +5,24 @@ body {
 }
 
 h1 {
-  font-weight: 400
+  font-weight: 400;
 }
 
+.myContainer {
+  background-color: #d3d7d8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20%;
+}
+
+.inputBox {
+  height: 60px;
+  width: 60px;
+  border: 2px solid aqua;
+}
+
+.hide {
+  display: none;
+}
