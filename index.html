@@ -13,13 +13,13 @@
     <script src="./app.js" async defer></script>
   </head>
   <body>
-    <div id="mainDiv" class="container myContainer">
+    <div id="mainDiv" class="container-fluid myContainer">
       <h1>Let's Play the Number Guessing Game!</h1>
       <h5>Hint: The correct number is between 1 and 100 inclusive. Good Luck!</h5>
       <p id="guessCount"></p>
       <form onsubmit="GuessingGame(event)">
         <div style="align-items: center;" class="vstack gap-5">
-        <input type="text" id="userGuess" class="inputBox" autofocus>
+        <input type="text" id="userGuess" class="inputBox" autofocus autocomplete="off">
         <button class="btn btn-success">Submit</button>
         <div id="response"><strong></strong></div>
         <button id="restart" class="btn btn-primary hide" onclick="location.reload(true)">Restart Game</button>
