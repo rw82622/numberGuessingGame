@@ -20,7 +20,7 @@
       <form onsubmit="GuessingGame(event)">
         <div style="align-items: center;" class="vstack gap-5">
         <input type="text" pattern="[0-9]+" id="userGuess" class="inputBox" autofocus autocomplete="off" required>
-        <button class="btn btn-success">Submit</button>
+        <button id="submitBtn" class="btn btn-success">Submit</button>
         <div id="response"><strong></strong></div>
         <button id="restart" class="btn btn-primary hide" onclick="location.reload(true)">Restart Game</button>
       </div>

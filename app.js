@@ -29,6 +29,8 @@ function GuessingGame(e) {
   } else if (userGuess === answer) {
     response = "Congratulations, You guessed the correct Number!";
     document.querySelector("#restart").style.display = "block";
+    document.querySelector("#submitBtn").setAttribute("disabled", "");
+    document.querySelector("#userGuess").setAttribute("disabled", "");
     document.querySelector("#mainDiv").style.backgroundImage =
       "url('./images/carlton.gif')";
   }
