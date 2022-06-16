@@ -22,17 +22,24 @@ function GuessingGame(e) {
   document.querySelector(
     "#guessCount"
   ).innerHTML = `Number of guesses: ${count}`;
-  if (userGuess > answer) {
-    response = "Too High!";
-  } else if (userGuess < answer) {
-    response = "Too Low!";
-  } else if (userGuess === answer) {
+  if (userGuess === answer) {
     response = "Congratulations, You guessed the correct Number!";
-    document.querySelector("#restart").style.display = "block";
+    document.querySelector("#restart").style.visibility = "visible";
     document.querySelector("#submitBtn").setAttribute("disabled", "");
     document.querySelector("#userGuess").setAttribute("disabled", "");
     document.querySelector("#mainDiv").style.backgroundImage =
       "url('./images/carlton.gif')";
+  } else {
+    document.querySelector("#wrongIcon").className = "show";
+    setTimeout(
+      () => (document.querySelector("#wrongIcon").className = "hide"),
+      2000
+    );
+    if (userGuess > answer) {
+      response = "Too High!";
+    } else if (userGuess < answer) {
+      response = "Too Low!";
+    }
   }
   document.querySelector("#userGuess").value = "";
   document.querySelector("#response").innerHTML = response;

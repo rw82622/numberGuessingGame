@@ -2,6 +2,7 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 300;
   text-align: center;
+  background-color: #d3d7d8;
 }
 
 h1 {
@@ -9,12 +10,11 @@ h1 {
 }
 
 .myContainer {
-  background-color: #d3d7d8;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 20%;
+  padding: 10%;
 }
 
 .inputBox {
@@ -25,5 +25,15 @@ h1 {
 }
 
 .hide {
-  display: none;
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.wrongIcon {
+  height: 5em;
+  width: 5em;
+  color: red;
 }
