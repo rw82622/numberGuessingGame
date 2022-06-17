@@ -1,12 +1,10 @@
 let answer = Math.floor(Math.random() * 100 + 1);
-let isSolved = false;
 let count = 0;
 let userGuess;
 let response = "";
 
 function reset() {
   answer = Math.floor(Math.random() * 100 + 1);
-  isSolved = false;
   count = 0;
   userGuess = "";
   response = "";
