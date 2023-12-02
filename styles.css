@@ -37,3 +37,7 @@ h1 {
   width: 5em;
   color: red;
 }
+
+#response {
+  color: red;
+}
